@@ -1,0 +1,9 @@
+# Vision Transformer 实现所需的依赖包
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+Pillow>=9.0.0
+# CPU: pip install torch torchvision
+# CUDA 11.8: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+# CUDA 12.1: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
