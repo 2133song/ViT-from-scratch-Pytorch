@@ -141,7 +141,7 @@ self.pos_embed = nn.Parameter(torch.zeros(1, n_patches + 1, embed_dim))
 ### 安装依赖
 
 ```bash
-pip install torch torchvision numpy
+pip install -r requirements.txt
 ```
 
 ### 运行测试
@@ -298,21 +298,3 @@ Cosine Decay阶段 (10k-total steps):
 - **官方代码**: https://github.com/google-research/vision_transformer
 - **Attention机制**: https://arxiv.org/abs/1706.03762
 - **ImageNet数据集**: https://www.image-net.org/
-
----
-
-## 🤝 贡献
-
-欢迎提出问题和改进建议！
-
----
-
-## 📄 许可
-
-本实现仅用于学习和研究目的。
-
----
-
-## ✨ 致谢
-
-感谢Google Research团队的开创性工作，以及PyTorch社区的支持。
